@@ -1,0 +1,59 @@
+body{
+    background: #333;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    border-bottom: #4a89fc 3px solid;
+    opacity: 0.8;
+    font-family: 'Roboto', sans-serif;
+}
+
+#home-section{
+    background: url('../images/a6.jpg');
+    background-image: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+}
+
+
+#home-section.dark-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    min-height: 700px;
+    background: rgba(0, 0,0, 0.7);
+}
+
+#home-section.home-inner{
+    padding-top: 200px;
+}
+
+#home-section.card-form{
+    opacity: 0.8;
+}
+
+#home-section .fas{
+    color: #fff;
+    background-color: #25011e;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#create-head-section.col{
+    color: #008ed6;
+}
+#explore-section .fas,
+#share-section .fas{
+    background: #25011e;
+    color: #fff;
+    
+}
+#create-section .fas{
+    background: #25011e;
+    color: #fff;
+    
+}
